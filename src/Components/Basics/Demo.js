@@ -42,7 +42,6 @@ const Demo = () => {
               <h3 className="tempmin_max">
                 Min:{city.temp_min}°Cel | Max:{city.temp_max}°Cel
               <p>&nbsp;Humidity: {city.humidity}%</p>
-              <p> &nbsp;Wind Speed: {city.wind.speed} m/s</p>
               </h3>
            
             </div>
