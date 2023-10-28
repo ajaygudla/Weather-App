@@ -9,7 +9,7 @@ const Demo = () => {
   useEffect(() => {
     const fetchApi = async () => {
       // note: The api after appid may differ according to your gmail and verification and here I have deleted my appid to push to github as this key is sensitive.
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=b24c8c43ed28e5c42d4dd1e05e03db39`;
+      const url = `https://t4.ftcdn.net/jpg/02/59/91/79/360_F_259917930_7SZpJBX0sXUEKPvy9aI3cHCyEI5y9nR6.jpg`;
       const response = await fetch(url);
       const resJson = await response.json();
       setCity(resJson.main);
