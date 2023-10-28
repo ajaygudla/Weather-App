@@ -4,7 +4,7 @@ import "./Style.css";
 const Demo = () => {
   // usestate ma here city is initial value and setCity is updated value
   const [city, setCity] = useState(null);
-  const [search, setSearch] = useState("Dharan");
+  const [search, setSearch] = useState("Rajahmundry");
 
   useEffect(() => {
     const fetchApi = async () => {
