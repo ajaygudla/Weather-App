@@ -28,7 +28,7 @@ html{
     width:30vw;
     height:60vh;
     border-radius: 0.5rem;
-    box-shadow:0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+    box-shadow:0 0.2rem 3rem rgba(0, 0, 0, 0.4);
     background:rgba(165, 187, 221,0.7);
     position:relative;
     overflow:hidden;
